@@ -41,7 +41,7 @@ def songs(request):
 
 
 def photos(request):
-    photos = req.get("https://pictures.1eve0g4q0g0j.us-south.codeengine.appdomain.cloud/picture").json()
+    photos = req.get("https://pictures.1ewl9jvd836b.us-south.codeengine.appdomain.cloud/picture").json()
     return render(request, "photos.html", {"photos": photos})
 
 
